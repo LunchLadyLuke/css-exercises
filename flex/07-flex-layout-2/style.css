@@ -26,3 +26,51 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+/* My Styles*/
+.header{
+  font-size: 36px;
+  display: flex;
+  padding: 0 16px;
+  font-weight: 900;
+  align-items: center;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+.middle{
+  display: flex;
+  flex: 1;
+}
+.card{
+  max-width: 300px;
+  margin: 20px;
+  padding: 20px;
+}
+.content{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar{
+  flex-shrink: 0;
+  padding: 16px;
+}
+.sidebar ul{
+  color: white;
+  list-style-type: none;
+  margin-bottom: 16px;
+  padding: 0px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+li{
+  margin-bottom: 16px;
+}
